@@ -1,6 +1,11 @@
 # Copyright (C) Microsoft Corporation. All rights reserved.
 # Licensed under the MIT License. See LICENSE in project root for information.
 
+# MY EXTRA STUFF !!!!
+RUN apt-get update
+RUN apt-get install -y xvfb
+
+
 #META# echo FROM ${MML_DOCKER_BASE_IMAGE:-ubuntu:16.04}
 
 #META# echo LABEL maintainer=\"$SUPPORT_EMAIL\"
